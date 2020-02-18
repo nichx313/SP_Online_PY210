@@ -84,28 +84,3 @@ def test_report_sort_key():
 def test_quit_prog():
     expected = "exit menu"
     assert mail.quit_prog() == expected
-
-
-print("Function check:")
-if test_letter_prep() is None:
-    print("1. letter_prep() is good")
-if test_letter_format() is None:
-    print("2. letter_format() is good")
-if test_input_prep() is None:
-    print("3. input_prep() is good")
-if test_thanks_all() is None:
-    print("4. thanks_all() is good")
-if test_list_check() is None:
-    print("5. list_check() is good")
-if test_input_check() is None:
-    print("6. input_check() is good")
-if test_db_update() is None:
-    print("7. db_update() is good")
-if test_save_file() is None:
-    print("8. save_file() is good")
-if test_report_sort_key() is None:
-    print("9. report_sort_key() is good")
-if test_quit_prog() is None:
-    print("10. quit_prog() is good")
-print()
-print("10 tests run")
