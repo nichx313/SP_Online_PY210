@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""PY210_SP - mailroom-part 3 - done
+"""PY210_SP - mailroom-part 3 - index error fixed
 author: Nick Miller"""
 
 
